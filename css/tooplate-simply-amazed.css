@@ -1081,7 +1081,13 @@ figure.effect-julia:hover p {
     width: 50%;
   }
 
-  .map { width: 100%; }
+  
+}
+@media only screen and (max-width: 768px) {
+  .map-outer {
+    width: 320px !important;
+    
+  }
 }
 
 .container {
